@@ -1,0 +1,16 @@
+package com.algaworks.crm
+
+import org.springframework.web.bind.annotation.GetMapping
+import org.springframework.web.bind.annotation.RequestMapping
+import org.springframework.web.bind.annotation.RestController
+
+@RestController
+@RequestMapping("/clientes")
+class clientecomtroller {
+
+    @GetMapping
+    public List<Clientes> listar()  {
+
+    }
+
+}
