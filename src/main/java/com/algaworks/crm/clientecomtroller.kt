@@ -8,9 +8,5 @@ import org.springframework.web.bind.annotation.RestController
 @RequestMapping("/clientes")
 class clientecomtroller {
 
-    @GetMapping
-    public List<Clientes> listar()  {
-
-    }
 
 }
